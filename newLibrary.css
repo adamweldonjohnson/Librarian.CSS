@@ -49,3 +49,99 @@ table {
 }
 
 /*---------------------------NEW LIBRARY-------------------------*/
+/*----FONT FAMILY REFERENCES----*/
+/*----font-family: 'PT Serif', serif;*/
+/*----font-family: 'Muli', sans-serif;*/
+/*----font-family: 'Amiri', serif;*/
+
+html {
+    font-family: 'Amiri', serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0.05em 0em;
+  font-family: 'PT Serif', serif;
+}
+
+h1 {
+  font-size: 4.2em;
+}
+
+h2 {
+  font-size: 3.6em;
+}
+
+h3 {
+  font-size: 2.95em;
+}
+
+h4 {
+  font-size: 2.7em;
+}
+
+h5 {
+  font-size: 2.3em;
+}
+
+h6 {
+  font-size: 2em;
+}
+
+p, a {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+p {
+  padding: 0.5em 0em;
+}
+
+main {
+
+}
+
+
+ul {
+list-style-type: square;
+font-size: 1.5em;
+line-height: 1.5em;
+padding: 0.4em 1em;
+}
+
+ol {
+  list-style-type: decimal;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0.4em 1.1em;
+}
+
+ul, ol {
+  font-family: 'PT Serif', serif;
+}
+
+blockquote {
+  text-align: center;
+  padding: 1em 7em;;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: underline;
+  color: #8077ff;
+}
+
+a:hover {
+  color: #ff3270;
+  font-size: 1.3em;
+}
+
+/*----CLASS SELECTORS----*/
+.content {
+  max-width: 72%;
+  margin: 0 auto;
+}
