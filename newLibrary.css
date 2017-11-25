@@ -49,3 +49,164 @@ table {
 }
 
 /*---------------------------NEW LIBRARY-------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Amiri|PT+Serif');
+
+
+html {
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0.05em 0em;
+  font-family: 'Amiri', serif;
+}
+
+h1 {
+  font-size: 4.2em;
+	text-align: center;
+}
+
+h2 {
+  font-size: 3.4em;
+	/*text-align: center;*/
+}
+
+h3 {
+  font-size: 2.8em;
+}
+
+h4 {
+  font-size: 2.5em;
+}
+
+h5 {
+  font-size: 2.2em;
+}
+
+h6 {
+  font-size: 1.9em;
+}
+
+p, a {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+p {
+  padding: 0.5em 0em;
+	text-align: justify;
+}
+
+main {
+
+}
+
+
+ul {
+list-style-type: square;
+font-size: 1.5em;
+line-height: 1.5em;
+padding: 0.4em 1em;
+}
+
+ol {
+  list-style-type: decimal;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0.4em 1.1em;
+}
+
+ul, ol {
+  font-family: 'PT Serif', serif;
+}
+
+blockquote {
+  text-align: center;
+  padding: 1em 7em;;
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: underline;
+	font-size: 1.1em;
+  /*color: #8077ff;*/
+	color: #26878e;
+}
+
+a:hover {
+  color: #ff3270;
+  font-size: 1.2em;
+}
+
+img {
+	display: block;
+	margin: 1.8em auto;
+	max-width: 50%;
+}
+
+iframe {
+	max-width: 50%;
+	display: block;
+	margin: auto;
+}
+/*----CLASS SELECTORS----*/
+.content {
+  max-width: 72%;
+  margin: 0 auto;
+	padding: 0;
+}
+
+.article {
+	margin-top: 3em;
+}
+
+.section {
+	margin-top: 2em;
+}
+
+.title {
+	margin-top: .2em;
+	margin-bottom: .2em;
+}
+
+.subtitle {
+	margin-top: .2em;
+	margin-bottom: .2em;
+}
+
+.button {
+	font-size: 1.4em;
+	font-family: 'PT Serif', serif;
+	padding: 0.2em 0.4em;
+	border: none;
+	border-radius: 0.3em;
+}
+
+.outlined {
+	border: 0.1em solid black;
+}
+
+.blackText {
+	color: black;
+}
+
+.whiteText {
+	color: white;
+}
+
+.whiteBG {
+	background-color: white;
+}
+
+.greenBG {
+	background-color: #2BE2AE;
+}
+
+.redBG {
+	background-color: #EF4F2F;
+}
+
+.blueBG {
+	background-color: #2E8DEF;
+}
