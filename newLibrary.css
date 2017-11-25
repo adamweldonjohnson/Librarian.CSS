@@ -1,60 +1,53 @@
 /*----------------------CSS RESET-----------------------*/
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /*---------------------------NEW LIBRARY-------------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Amiri|PT+Serif');
-
-
 html {
-    font-family: 'PT Serif', serif;
-    box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,12 +57,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 4.2em;
-	text-align: center;
+  text-align: center;
 }
 
 h2 {
   font-size: 3.4em;
-	/*text-align: center;*/
+  /*text-align: center;*/
 }
 
 h3 {
@@ -95,14 +88,14 @@ p, a {
 
 p {
   padding: 0.5em 0em;
-	text-align: justify;
+  text-align: justify;
 }
 
 ul {
-list-style-type: square;
-font-size: 1.5em;
-line-height: 1.5em;
-padding: 0.4em 1em;
+  list-style-type: square;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0.4em 1em;
 }
 
 ol {
@@ -117,17 +110,17 @@ ul, ol {
 }
 
 blockquote {
-	/*quotes: "\201C";*/
-	border-left: 18px solid #26878e;
-	border-right: 5px solid #26878e;
-	margin: auto;
-	padding: 1em 1.5em;
+  /*quotes: "\201C";*/
+  border-left: 18px solid #26878e;
+  border-right: 5px solid #26878e;
+  margin: auto;
+  padding: 1em 1.5em;
   text-align: justify;
   max-width: 50%;
   font-size: 1.8em;
-	-webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 a:hover {
@@ -136,73 +129,141 @@ a:hover {
 }
 
 img {
-	display: block;
-	margin: 1.8em auto;
-	max-width: 50%;
+  display: block;
+  margin: 1.8em auto;
+  max-width: 50%;
 }
 
 iframe {
-	max-width: 50%;
-	display: block;
-	margin: auto;
+  max-width: 50%;
+  display: block;
+  margin: auto;
 }
+
+form {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.7em;
+}
+
+form input {
+  text-align: center;
+}
+
+input {
+  padding: 1em 3em;
+  box-shadow: 2px 2px 10px #26878e;
+  min-width: 40%;
+  margin: 0.5em 0.2em;
+  font-size: 0.5em;
+}
+
+select {
+  font-size: 0.5em;
+  box-shadow: 1px 1px 5px #26878e;
+  min-width: 40%;
+  margin: 0.5em 0.2em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  box-shadow: 1px 1px 5px #26878e;
+  border-radius: 50%;
+}
+
+input[type="file"], textarea, input[type="color"], input[type="number"] {
+  margin: 0.5em 0.2em;
+  min-width: 40%;
+}
+
+input[type="color"] {
+  padding: 0.3em;
+  min-width: 40%;
+}
+
+input[type="number"] {
+  min-width: 40%;
+  font-size: 0.5em;
+}
+
+legend {
+  display: block;
+  margin: auto;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+input[type="submit"] {
+  font-size: 1.5em;
+  display: block;
+  margin: auto;
+}
+
 /*----CLASS SELECTORS----*/
+
 .content {
   max-width: 72%;
   margin: 0 auto;
-	padding: 0;
+  padding: 0;
 }
 
 .article {
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 .section {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .title {
-	margin-top: .2em;
-	margin-bottom: .2em;
+  margin-top: .2em;
+  margin-bottom: .2em;
 }
 
 .subtitle {
-	margin-top: .2em;
-	margin-bottom: .2em;
+  margin-top: .2em;
+  margin-bottom: .2em;
 }
 
 .button {
-	font-size: 1.4em;
-	font-family: 'PT Serif', serif;
-	padding: 0.2em 0.4em;
-	border: none;
-	border-radius: 0.3em;
+  font-size: 1.4em;
+  font-family: 'PT Serif', serif;
+  padding: 0.2em 0.4em;
+  border: none;
+  border-radius: 0.3em;
 }
 
 .outlined {
-	border: 0.1em solid black;
+  border: 0.1em solid black;
 }
 
 .blackText {
-	color: black;
+  color: black;
 }
 
 .whiteText {
-	color: white;
+  color: white;
 }
 
 .whiteBG {
-	background-color: white;
+  background-color: white;
 }
 
 .greenBG {
-	background-color: #2BE2AE;
+  background-color: #2BE2AE;
 }
 
 .redBG {
-	background-color: #EF4F2F;
+  background-color: #EF4F2F;
 }
 
 .blueBG {
-	background-color: #2E8DEF;
+  background-color: #2E8DEF;
+}
+
+.formRow {
+  max-width: 40%;
+  margin: 1em;
 }
