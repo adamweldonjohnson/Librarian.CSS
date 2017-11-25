@@ -201,6 +201,15 @@ input[type="submit"] {
   margin: auto;
 }
 
+table {
+  border-collapse: collapse;
+  margin: 2em 0em;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgba(38, 135, 142, 0.15);
+}
+
 /*----CLASS SELECTORS----*/
 
 .content {
@@ -266,4 +275,28 @@ input[type="submit"] {
 .formRow {
   max-width: 40%;
   margin: 1em;
+}
+
+.thinLines * {
+  border: 1px solid black;
+}
+
+.mediumLines * {
+  border: 3px solid black;
+}
+
+.thickLines * {
+  border: 5px solid black;
+}
+
+.tableHeader * {
+  font-size: 2em;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.tableContent * {
+  font-size: 1.2em;
+  padding: 0.6em 0.3em;
+  text-align: left;
 }
