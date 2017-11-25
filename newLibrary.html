@@ -4,93 +4,109 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="newLibrary.css">
-  <link href="https://fonts.googleapis.com/css?family=Amiri|Muli|PT+Serif" rel="stylesheet">
   <title>newLibrary</title>
 </head>
 
 <body>
-  <nav>
+  <ul class="navBar whiteText">
+    <li>
+      <a href="#intro">Intro</a>
+    </li>
+    <li>
+      <a href="#articlesAndSections">Sections</a>
+    </li>
+    <li>
+      <a href="#buttons">Buttons</a>
+    </li>
+    <li>
+      <a href="#bloq">BlockQuotes</a>
+    </li>
+    <li>
+      <a href="#forms">Forms</a>
+    </li>
+    <li>
+      <a href="#tables">Tables</a>
+    </li>
+    <li>
+      <a href="#grids">Grids</a>
+    </li>
+    <li class="logo"></li>
 
-  </nav>
-  <header>
-
-  </header>
+  </ul>
   <main>
     <div class="content">
-      <div class="article">
-        <h1>Librarian.CSS</h1>
-        <h2>A light CSS library</h2>
-        <h3>for easy reading</h3>
-        <h4>large fonts</h4>
-        <h5>big spaces</h5>
-        <h6>monochromatic for contrast,<br>with just a touch of color</h6>
-        <img src="book.jpg" alt="a high contrast photo of an open book">
-        <div class="section">
-          <h3 class="title">Type What Speaks to You</h3>
-          <p><a href="#">Librarian.CSS</a> is a no-nonsense css library for sites with large bodies of readable content.</p>
-        </div>
-        <div class="section">
-          <h4 class="subtitle">Designed for the "F"</h4>
-          <p>Blogs, "about us pages," news feeds and more benefit from enhanced readability provided by Librarian.css. While the color scheme is mainly monochromatic, you'll find pops of color in calls to action - links, forms and navigation - to enhance
-            end user participation.</p>
-          <p>Nobody forgot about us devs, however. Librarian.CSS features useful layout tools and is designed for easy syntactical markup using nothing but easy-to-remember class names. No more class="v-2-5-seven-thirds" to get something that is "half" of
-            a page!</p>
-          <br>
-          <h5>Take a look at these user features:</h5>
-          <ul>
-            <li>Wide margins</li>
-            <li>Generous line heights</li>
-            <li>Simple, classic font selection</li>
-            <li>Colors only on links</li>
-            <li>Responsive, mobile-first design</li>
-          </ul>
-          <h5>And, for us devs:</h5>
-          <ol>
-            <li>Responsive</li>
-            <li>Easy class names</li>
-            <li>Easy grid layout system</li>
-            <li>Easy nav bars you can use anywhere</li>
-            <li>Classy forms</li>
-            <li>Clean Tables</li>
-            <li>Includes buttons!</li>
-          </ol>
-        </div>
-        <div class="section">
-          <h3 class="title">How-To (incl'd snippets!)</h3>
-          <h4 class="subtitle">Articles and Sections</h4>
-          <p>Librarian.CSS allows devs to give readable content pre-formatted "sections" in "articles." Give a master container div the class of "content". Place "article" divs inside your content div. Place "section" divs inside your articles.<br><br>Yes,
-            it's that simple. Check out the code below!</p>
-          <iframe width="100%" height="300" src="http://jsfiddle.net/x1m4fak4/2/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-          <h4 class="subtitle">Titles</h4>
-          <p>Why fuss with margins? Use the class "title" and "subtitle" to give your titles some breathing room.</p>
-          <iframe width="100%" height="300" src="http://jsfiddle.net/95hx1sn6/1/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-        </div>
-        <div class="section">
-          <h4 class="subtitle">Buttons</h4>
-          <p>Just need a button? Grab one below. Give it a class name of button and add your own modifiers. Profit.</p>
-          <h5>Possible class names include:</h5>
-          <ul>
-
-            <li>outlined</li>
-            <li>blueBG</li>
-            <li>greenBG</li>
-            <li>redBG</li>
-            <li>whiteText</li>
-            <li>blackText</li>
-          </ul>
-          <button type="button" class="button whiteBG blackText outlined" style="display: block; margin: auto;">button1</button>
-          <button type="button" class="button blueBG whiteText" style="display: block; margin: auto;">button2</button>
-          <button type="button" class="button outlined greenBG" style="display: block; margin: auto;">button3</button>
-          <button type="button" class="button redBG" style="display: block; margin: auto;">button3</button>
-          <iframe width="100%" height="300" src="http://jsfiddle.net/s8euhq69/embedded/html/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-        </div>
-        <div class="section">
-          <h4 class="subtitle">Blockquotes</h4>
-          <p>Blockquotes are easy! Just put in a blockquote element and make sure to start your blockquote with a " symbol. All's taken care of for you!</p>
-          <blockquote cite="http://www.worldwildlife.org/who/index.html">"For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally."</blockquote>
-        </div>
+      <h1>Librarian.CSS</h1>
+      <h2>A light CSS library</h2>
+      <h3>for easy reading</h3>
+      <h4>large fonts</h4>
+      <h5>big spaces</h5>
+      <h6>monochromatic for contrast,<br>with just a touch of color</h6>
+      <img src="book.jpg" alt="a high contrast photo of an open book">
+      <div class="section" id="intro">
+        <h3 class="title">Type What Speaks to You</h3>
+        <p><a href="#">Librarian.CSS</a> is a no-nonsense css library for sites with large bodies of readable content.</p>
       </div>
       <div class="section">
+        <h4 class="subtitle">Designed for the "F"</h4>
+        <p>Blogs, "about us pages," news feeds and more benefit from enhanced readability provided by Librarian.css. While the color scheme is mainly monochromatic, you'll find pops of color in calls to action - links, forms and navigation - to enhance end
+          user participation.</p>
+        <p>Nobody forgot about us devs, however. Librarian.CSS features useful layout tools and is designed for easy syntactical markup using nothing but easy-to-remember class names. No more class="v-2-5-seven-thirds" to get something that is "half" of
+          a page!</p>
+        <br>
+        <h5>Take a look at these user features:</h5>
+        <ul>
+          <li>Wide margins</li>
+          <li>Generous line heights</li>
+          <li>Simple, classic font selection</li>
+          <li>Colors only on links</li>
+          <li>Responsive, mobile-first design</li>
+        </ul>
+        <h5>And, for us devs:</h5>
+        <ol>
+          <li>Responsive</li>
+          <li>Easy class names</li>
+          <li>Easy grid layout system</li>
+          <li>Easy nav bars you can use anywhere</li>
+          <li>Classy forms</li>
+          <li>Clean Tables</li>
+          <li>Includes buttons!</li>
+        </ol>
+      </div>
+      <div class="section">
+        <h3 class="title" id="articlesAndSections">How-To (incl'd snippets!)</h3>
+        <h4 class="subtitle">Articles and Sections</h4>
+        <p>Librarian.CSS allows devs to give readable content pre-formatted "sections" in "articles." Give a master container div the class of "content". Place "article" divs inside your content div. Place "section" divs inside your articles.<br><br>Yes,
+          it's that simple. Check out the code below!</p>
+        <iframe width="100%" height="300" src="http://jsfiddle.net/x1m4fak4/2/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+        <h4 class="subtitle">Titles</h4>
+        <p>Why fuss with margins? Use the class "title" and "subtitle" to give your titles some breathing room.</p>
+        <iframe width="100%" height="300" src="http://jsfiddle.net/95hx1sn6/1/embedded/html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      </div>
+      <div class="section" id="buttons">
+        <h4 class="subtitle">Buttons</h4>
+        <p>Just need a button? Grab one below. Give it a class name of button and add your own modifiers. Profit.</p>
+        <h5>Possible class names include:</h5>
+        <ul>
+
+          <li>outlined</li>
+          <li>blueBG</li>
+          <li>greenBG</li>
+          <li>redBG</li>
+          <li>whiteText</li>
+          <li>blackText</li>
+        </ul>
+        <button type="button" class="button whiteBG blackText outlined" style="display: block; margin: auto;">button1</button>
+        <button type="button" class="button blueBG whiteText" style="display: block; margin: auto;">button2</button>
+        <button type="button" class="button outlined greenBG" style="display: block; margin: auto;">button3</button>
+        <button type="button" class="button redBG" style="display: block; margin: auto;">button3</button>
+        <iframe width="100%" height="300" src="http://jsfiddle.net/s8euhq69/embedded/html/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      </div>
+      <div class="section" id="bloq">
+        <h4 class="subtitle">Blockquotes</h4>
+        <p>Blockquotes are easy! Just put in a blockquote element and make sure to start your blockquote with a " symbol. All's taken care of for you!</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">"For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally."</blockquote>
+      </div>
+      <div class="section" id="forms">
         <h4 class="subtitle">HTML Forms</h4>
         <p>Put your label and input inside of a container div with the class of "formRow" for neat, orderly rows, such as those below:</p>
         <form>
@@ -209,7 +225,7 @@
           </fieldset>
         </form>
       </div>
-      <div class="section">
+      <div class="section" id="tables">
         <h4 class="subtitle">Tables</h4>
         <p>Easy tables - both on the eyes and the dev!</p>
         <h5>Possible class names inlude:</h5>
@@ -260,7 +276,7 @@
           </tr>
         </table>
       </div>
-      <div class="section">
+      <div class="section" id="grids">
         <h4 class="subtitle">Grids</h4>
         <p>Grids should be simple. That why these are simple! create a div with the class of "grid". Then, nest divs with class names of their size. If you just want to fill the remaining space, use the class name "flex". Easy!</p>
         <iframe width="100%" height="300" src="http://jsfiddle.net/s8euhq69/3/embedded/html/" allowpaymentrequest allowfullscreen="allowfullscreen" frameborder="0"></iframe>
@@ -294,9 +310,6 @@
       </div>
     </div>
   </main>
-  <footer>
-    Yo, we got a footer down here.
-  </footer>
 </body>
 
 </html>

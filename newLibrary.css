@@ -48,6 +48,7 @@ table {
 html {
   font-family: 'PT Serif', serif;
   box-sizing: border-box;
+  margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,6 +90,7 @@ p, a {
 p {
   padding: 0.5em 0em;
   text-align: justify;
+  font-family: 'Amiri', serif;
 }
 
 ul {
@@ -121,6 +123,12 @@ blockquote {
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #26878e;
+  font-size: 1.2em;
 }
 
 a:hover {
@@ -216,7 +224,7 @@ tr:nth-of-type(even) {
 
 .content {
   max-width: 72%;
-  margin: 0 auto;
+  margin: 5rem auto;
   padding: 0;
 }
 
@@ -237,6 +245,8 @@ tr:nth-of-type(even) {
   margin-top: .2em;
   margin-bottom: .2em;
 }
+
+/*--BUTTONS--*/
 
 .button {
   font-size: 1.4em;
@@ -274,6 +284,8 @@ tr:nth-of-type(even) {
   background-color: #2E8DEF;
 }
 
+/*--TABLE--*/
+
 .formRow {
   max-width: 40%;
   margin: 1em;
@@ -302,6 +314,8 @@ tr:nth-of-type(even) {
   padding: 0.6em 0.3em;
   text-align: left;
 }
+
+/*--GRID--*/
 
 .grid {
   display: flex;
@@ -355,8 +369,43 @@ tr:nth-of-type(even) {
   padding: 0.5rem;
 }
 
-/*DELETE BEFORE PUSH*/
+/*--NAV BAR--*/
 
-html {
-  margin-bottom: 10%;
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 4rem;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(43, 226, 174);
+}
+
+.navBar>li {
+  display: inline-block;
+  padding: 1rem 0rem;
+}
+
+.navBar>li>a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0;
+  transition: background-color 0.5s ease-in;
+}
+
+.navBar>li>a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  float: right;
+  margin-right: 10rem;
+  background-image: url('book.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 2rem;
+  width: 5rem;
 }
