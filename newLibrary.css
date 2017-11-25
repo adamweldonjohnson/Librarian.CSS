@@ -98,11 +98,6 @@ p {
 	text-align: justify;
 }
 
-main {
-
-}
-
-
 ul {
 list-style-type: square;
 font-size: 1.5em;
@@ -122,16 +117,17 @@ ul, ol {
 }
 
 blockquote {
-  text-align: center;
-  padding: 1em 7em;;
+	/*quotes: "\201C";*/
+	border-left: 18px solid #26878e;
+	border-right: 5px solid #26878e;
+	margin: auto;
+	padding: 1em 1.5em;
+  text-align: justify;
+  max-width: 50%;
   font-size: 1.8em;
-}
-
-a {
-  text-decoration: underline;
-	font-size: 1.1em;
-  /*color: #8077ff;*/
-	color: #26878e;
+	-webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 a:hover {
