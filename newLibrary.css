@@ -182,18 +182,18 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="file"], textarea, input[type="color"], input[type="number"] {
-  margin: 0.5em 0.2em;
+  margin: 0.5rem 0.2rem;
   min-width: 40%;
 }
 
 input[type="color"] {
-  padding: 0.3em;
+  padding: 0.3rem;
   min-width: 40%;
 }
 
 input[type="number"] {
   min-width: 40%;
-  font-size: 0.5em;
+  font-size: 0.5rem;
 }
 
 legend {
@@ -204,7 +204,7 @@ legend {
 }
 
 input[type="submit"] {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   display: block;
   margin: auto;
 }
@@ -408,4 +408,76 @@ tr:nth-of-type(even) {
   background-size: cover;
   height: 2rem;
   width: 5rem;
+}
+
+/*----RESPONSIVE----*/
+
+@media only screen and (max-width: 1055px) {
+  .navBar>li>a {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+  .content {
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 3.2em;
+  }
+  h2 {
+    font-size: 2.6em;
+  }
+  h3 {
+    font-size: 2.4em;
+  }
+  h4 {
+    font-size: 2.2em;
+  }
+  h5 {
+    font-size: 2.1em;
+  }
+  h6 {
+    font-size: 1.7em;
+  }
+  p, a {
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
+  p {
+    padding: 0.25em 0em;
+  }
+  ul {
+    font-size: 1.3em;
+    padding: 0.5em 1em;
+  }
+  ol {
+    font-size: 1.3em;
+    padding: 0.5em 1.1em;
+  }
+  blockquote {
+    max-width: 65%;
+    font-size: 1.4em;
+  }
+  iframe {
+    max-width: 100%;
+  }
+  form {
+    max-width: 100%;
+    font-size: 1.4em;
+  }
+  input {
+    padding: 0.8em 3em;
+    box-shadow: 2px 2px 10px #26878e;
+    min-width: 100%;
+    margin: 0.5em 0em;
+    font-size: 0.8rem;
+  }
+  textarea {
+    width: 100%;
+  }
+  select {
+    min-width: 50%;
+  }
+  input[type="number"] {
+    font-size: 0.8rem;
+  }
 }
