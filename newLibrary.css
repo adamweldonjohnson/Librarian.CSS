@@ -324,6 +324,7 @@ tr:nth-of-type(even) {
   line-height: 1.5rem;
   color: white;
   font-size: 1.5em;
+  max-width: 100%;
 }
 
 .full {
@@ -352,7 +353,7 @@ tr:nth-of-type(even) {
 }
 
 .fourth {
-  box-flex: none;
+  box-flex: 0;
   width: 25%;
   border-radius: 0.5em;
   margin-left: 0.1rem;
@@ -411,6 +412,28 @@ tr:nth-of-type(even) {
 }
 
 /*----RESPONSIVE----*/
+
+@media only screen and (max-width: 480px) {
+  .tableHeader * {
+    font-size: 1em;
+    padding: 0.25em 0.5em;
+    text-align: center;
+  }
+  .tableContent * {
+    font-size: 0.8em;
+    padding: 0.6em 0.3em;
+    text-align: left;
+  }
+  input[type="file"] {
+    max-width: 100%;
+    font-size: 0.5rem;
+  }
+  input[type="submit"] {
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
 
 @media only screen and (max-width: 1055px) {
   .navBar>li>a {
@@ -479,5 +502,8 @@ tr:nth-of-type(even) {
   }
   input[type="number"] {
     font-size: 0.8rem;
+  }
+  table {
+    max-width: 100%;
   }
 }
